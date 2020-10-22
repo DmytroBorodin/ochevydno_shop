@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 65">
+  <g>
+    <polyline points="35.69 53.63 4.52 53.63 4.52 4.52 60.48 4.52 60.48 53.63 56.29 53.63" fill="none" stroke="#001652" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" fill-rule="evenodd"/>
+    <polyline points="35.69 53.63 35.69 60.48 41.79 55.63 48.3 60.48 48.3 42.93" fill="none" stroke="#001652" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" fill-rule="evenodd"/>
+    <line x1="12.1" y1="12.51" x2="52.03" y2="12.51" fill="none" stroke="#001652" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path d="M41.79,45.28a8.23,8.23,0,1,0-8.22-8.23A8.25,8.25,0,0,0,41.79,45.28Z" fill="none" stroke="#001652" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" fill-rule="evenodd"/>
+    <line x1="12.1" y1="20.5" x2="52.03" y2="20.5" fill="none" stroke="#001652" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <line x1="12.1" y1="36.64" x2="22.04" y2="36.64" fill="none" stroke="#001652" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <line x1="35.69" y1="46.26" x2="35.69" y2="43.44" fill="none" stroke="#001652" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  </g>
+</svg>
