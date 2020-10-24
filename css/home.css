@@ -198,6 +198,9 @@
   .services .row {
     display: none;
   }
+  .row.service-row {
+    display: flex;
+  }
   .service-row {
     display: flex;
     flex-wrap: wrap;
