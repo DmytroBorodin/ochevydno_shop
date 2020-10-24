@@ -1,0 +1,146 @@
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  box-sizing: border-box;
+}
+a, img, button, input {
+  display: block;
+}
+a, img, button {
+  cursor: pointer;
+}
+button {
+  background-color: transparent;
+  border: none;
+}
+a {
+  text-decoration: none;
+}
+button:focus, input:focus {
+  outline: none;
+}
+
+/*Fonts*/
+@font-face {
+  font-family: 'SFPro Thin';
+  src: url('../fonts/SFProDisplay-Thin.ttf'),
+       url('../fonts/SFProDisplay-Thin.woff'),
+       url('../fonts/SFProDisplay-Thin.woff2');
+}
+@font-face {
+  font-family: 'SFPro Light';
+  src: url('../fonts/SFProDisplay-Light.ttf'),
+       url('../fonts/SFProDisplay-Light.woff'),
+       url('../fonts/SFProDisplay-Light.woff2');
+}
+@font-face {
+  font-family: 'SFPro Regular';
+  src: url('../fonts/SFProDisplay-Regular.ttf'),
+       url('../fonts/SFProDisplay-Regular.woff'),
+       url('../fonts/SFProDisplay-Regular.woff2');
+}
+/*Main settings*/
+html {
+  font-size: 10px;
+  font-family: 'SFPro Regular';
+  color: #000;
+}
+.section{
+  width: 100%;
+}
+.container{
+  width: 1230px;
+  margin: auto;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*Header*/
+
+.header-bar {
+  padding: 24px 12px 20px;
+}
+.social-links-block {
+  width: auto;
+  display: flex;
+}
+.link-item {
+  margin-right: 15px;
+}
+.link-item svg{
+  height: 18px;
+  fill: #000;
+  transition: all 0.3s ease;
+}
+.link-item svg:hover{
+  fill: #777777;
+}
+.header-info-block {
+  display: flex;
+  width: 356px;
+  justify-content: space-between;
+  font-size: 14px;
+  line-height: 85%;
+}
+.info span{
+  color: #777777;
+}
+
+@media screen and (max-width: 1439px) {
+  .container{
+    width: 1140px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .container{
+    width: 960px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .container{
+    width: 720px;
+  }
+  .main-btn {
+    width: 230px;
+    padding: 18px 0;
+    font-size: 16px;
+    line-height: 85%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .container{
+    width: 540px;
+  }
+  .main-btn {
+    width: 190px;
+    padding: 12px 0;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .container{
+    width: 350px;
+  }
+  .header-bar {
+    padding: 24px 0 20px;
+  }
+  .header-info-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: auto;
+  }
+  .info {
+    line-height: 20px;
+  }
+}
+@media screen and (max-width: 374px) {
+  .container{
+    width: 300px;
+  }
+}
